@@ -1,0 +1,165 @@
+*{
+    -webkit-box-sizing:border-box ;
+    -Moz-box-sizing:border-box ;
+    box-sizing:border-box ;
+    
+}
+
+body{
+margin: 0;
+padding: 0;
+background-color:black; 
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 1080px;
+    margin: 6px auto;
+    background-color: #cdcdcd;
+    position: relative;
+    /* height: 170vh; */
+    float: left;
+    left: 17%;
+    margin-bottom: 15px;
+}
+
+
+/* start header */
+.container .header{
+background:url(../images/bg1.jpg) no-repeat center ;
+background-size:cover;
+height:165px;
+border-bottom: 1px solid #ccc;
+}
+
+.container .header .icons {
+float: right;
+clear: both;
+opacity:0.8;
+right: 10px;
+margin: 20px;
+}
+
+.header .icons > a >img {
+    margin: 5px 5px;
+}
+
+/*END header */
+
+
+/* start navebar */
+
+.container>.navbar  {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+}
+.container>.navbar >ul {
+    color: #fff;
+    list-style: none;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.container>.navbar >ul>li {
+    display: inline-block;
+    margin: 5px 0px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+.container>.navbar >ul>li:hover {
+background-color:#2196f3;
+transition:0.5s;
+
+}
+.container>.navbar >ul>li.active {
+    background-color:#2196f3;
+}
+
+.container>.navbar >ul>li>a{
+    text-decoration:none;
+    color:#fff;
+}
+
+/* END navebar */
+
+/* start section images */
+
+.secImg{
+    margin-top: 8%;
+    width: 100%;
+    padding: 10px;
+}
+
+.secImg >img{
+width: inherit;
+}
+/* end section images */
+
+
+/* Start section Article */
+
+.article >.welcome{
+    float: left;
+    width: 100%;
+    clear: both;
+    padding: 18px 19px 2px 19px;
+}
+.article >.welcome>h2{
+    color: #2196f3;
+    border-bottom: 1px solid #777;
+    margin: 0;
+    width: 100%;
+    padding: 0px 0px 9px 17px;
+}
+
+.article >.welcome>p{
+    margin: 0;
+    padding: 0px 20px 38px 18px;
+    width: 100%;
+}
+
+/* End section Article */
+
+/* Start section images */
+.Images{
+    width: 98%;
+    margin: 12px 11px 27px 11px;
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+.Images>img{
+    width: 42%;
+    margin: 23px;
+}
+/* End section images */
+
+
+ /* Start section two  */
+.art {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding: 18px 19px 2px 19px;
+}
+
+
+.art>p {
+    margin: 0;
+   padding:11px 22px 46px 18px;
+    width: 100%;
+}
+
+ /* Start section two  */
+
+/* start footer */
+.footer{
+    border-top:1px solid #777;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
